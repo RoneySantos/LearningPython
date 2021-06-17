@@ -13,6 +13,7 @@ while(rodada <= total_de_tentativas):
 
      if (numero_secreto == chute):
           print ("Acertou Miseravi")
+          rodada = total_de_tentativas
      else:
           print ("Errou Azalado")
      rodada = rodada + 1
